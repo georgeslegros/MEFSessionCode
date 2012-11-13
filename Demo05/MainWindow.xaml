@@ -1,0 +1,21 @@
+﻿<Window x:Class="Demo05.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Demo 05"
+        Height="350"
+        Width="525">
+        <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Method 1" Click="Method1Click" />
+            <MenuItem Header="Method 2" Click="Method2Click" />
+            <MenuItem Header="FOR LATER" Click="Method3Click" />
+        </Menu>
+        <ItemsControl x:Name="items">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+        </ItemsControl>
+    </DockPanel>
+</Window>
