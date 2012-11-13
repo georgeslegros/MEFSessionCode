@@ -1,0 +1,1 @@
+This repository contains some code to illustrate a demo session of MEF (Managed Extensibility Framework)
